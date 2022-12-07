@@ -1,0 +1,57 @@
+body{
+      background-color: rgba(225, 225, 225,0.2);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center{
+     display: flex;
+     flex-direction: column;
+     align-items: center;   
+}
+.experience{
+     margin-bottom: 0;
+     font-size: 35px;
+}
+.line{
+     width: 120px;
+     display: block;
+     height: 6px;
+     background-color: rgb(32, 116, 168);
+     align-items: center;
+}
+.companies{
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 25px;
+     font-weight: 450;    
+}
+.companies p:hover{
+     color: rgb(32, 116, 168);
+     text-decoration: underline;
+}
+.names{
+     font-size: 25px;
+     margin-bottom: 0;
+}
+.headings{
+     display: inline-block;
+     padding: 8px;
+     background-color: rgba(225, 225, 225,1);
+}
+.dates{
+     margin-top: 0;
+     font-size: 18px;
+}
+.desc li{
+     list-style: none;
+     content: \003E;
+}
+.more{
+     align-items: center;
+     padding: 9px 50px;
+     background-color:rgb(32, 116, 168) ;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-weight: 500;
+     font-size: 17px;
+}
